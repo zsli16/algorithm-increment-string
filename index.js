@@ -10,7 +10,6 @@ function incrementString (str) {
   const newNum = parseInt(numbers) + 1;
 
   str = str.split('');
-  console.log(str);
   str.splice(posToreplace, numLength, newNum);
   const res = str.join('');
 
